@@ -1,0 +1,27 @@
+{
+  "name": "new-watchcore",
+  "version": "1.0.0",
+  "description": "This is update for watchcore application",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "angular-material": "^1.1.0-rc.5",
+    "angularfire": "^2.0.1",
+    "normalize.css": "^4.1.1",
+    "angularjs-datetime-picker": "latest",
+    "firebase": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lyashenkonik:Urbanspirit100@bitbucket.org/boostsolution/new-watchcore.git"
+  },
+  "keywords": [
+    "watchcore"
+  ],
+  "author": "Nikita",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/boostsolution/new-watchcore#readme"
+}

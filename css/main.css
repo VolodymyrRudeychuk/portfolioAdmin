@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    outline: none;
+}
+span{
+    outline: none;
+}
+#login{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#login .wrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+#login .wrapper .form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 43px;
+    background: #f7f7f7;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+}
+.menuboxShadow{
+    -moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.12) inset !important;
+    box-shadow: 0 -1px 0 rgba(0,0,0,0.12) inset !important;
+
+}
+
+.left-nav-list{
+    color: rgba(0,0,0,0.54);
+    font-size: 14px;
+
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.left-nav-list p{
+    font-weight: 700 !important;
+}
+
+.md-toolbar{
+    height: 48px !important;
+    min-height: 48px !important;
+}
+.top-nav-shadow{
+    z-index: 70;
+    background-color: #0288d1 !important;
+    -moz-box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.12),0 1px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.12),0 1px 8px 0 rgba(0,0,0,0.2);
+}
+
+.shadow{
+    background: white;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.dasbord-item{
+    background: white;
+    padding: 0;
+    margin: 10px 5px;
+}
+@media screen and (max-width: 990px) {
+    .dasbord-item{
+        margin: 10px 0px;
+    }
+}
+.dasbord-item .title{
+    padding-left: 10px;
+}
+.dasbord-item .title h3{
+    margin: 0px;
+    padding: 11px;
+}
+.dasbord-item .content {
+    text-align: center;
+}
+
+.dasbord-item .loaderD{
+    margin-bottom: 15px;
+}
+.activeNav{
+    color: #039be5 !important;
+}
+.tabs-blue{
+
+    min-width: 100% !important;
+}
+
+
+.DialogWrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 70;
+    position: absolute;
+
+}
+
+
+
+
+
+/*.top-nav-shadow ul {*/
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.top-nav-shadow ul li {*/
+    /*float: left;*/
+/*}*/
+/*.top-nav-shadow ul li span{*/
+    /*display: block;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*padding: 14px 16px;*/
+    /*text-decoration: none;*/
+/*}*/

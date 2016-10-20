@@ -1,0 +1,56 @@
+
+    <md-toolbar class="md-theme-indigo menuboxShadow" style="background-color: #fafafa !important; color: #757575;">
+
+        <h1 class="md-toolbar-tools"><img src="/img/logo.png" alt="" width="35" height="35"> &nbsp;&nbsp;&nbsp;Watchcore panel</h1>
+    </md-toolbar>
+
+    <md-content layout-padding  style="padding: 0px">
+        <md-button ng-click="close()" class="md-primary" hide-gt-md>
+            Close menu
+        </md-button>
+
+        <md-list flex style="padding: 0" >
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="dashbord()" ng-class="{ activeNav: isActive('/')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Dashbord
+                </p>
+            </md-list-item>
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="banners()" ng-class="{ activeNav: isActive('/banners')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Banners
+                </p>
+            </md-list-item>
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="posts()" ng-class="{ activeNav: isActive('/posts')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-wpforms" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Posts
+                </p>
+            </md-list-item>
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="wactfaces()" ng-class="{ activeNav: isActive('/watchfaces')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Watch Faces
+                </p>
+            </md-list-item>
+
+
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="users()" ng-class="{ activeNav: isActive('/users')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; App users
+                </p>
+            </md-list-item>
+
+
+            <md-list-item class="md-1-line left-nav-list" ng-click="message()" ng-class="{ activeNav: isActive('/messages')}">
+                <p>
+                    &nbsp;&nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; Push Messages
+                </p>
+            </md-list-item>
+
+
+        </md-list>
+
+    </md-content>

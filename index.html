@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="watchcoreApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin panel watch core</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link href="bower_components/angular-material-data-table/dist/md-data-table.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+    <script src="bower_components/angular/angular.js"></script>
+
+
+
+    <script src="lib/angular/angular-route.min.js"></script>
+
+    <script src="node_modules/firebase/firebase.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyBtmb0Rt_OJmNj16FFmZknhgQ0eCe8IslY",
+            authDomain: "portfoliotestadmin.firebaseapp.com",
+            databaseURL: "https://portfoliotestadmin.firebaseio.com",
+            storageBucket: "portfoliotestadmin.appspot.com",
+            messagingSenderId: "563946328522"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="node_modules/angularfire/dist/angularfire.min.js"></script>
+
+
+
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/angular-material-data-table/dist/md-data-table.min.js"></script>
+
+
+    <script src="bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+    <script src="bower_components/Chart.js/Chart.js"></script>
+    <script src="bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+
+
+    <!--<script src='bower_components/d3/d3.min.js' type='text/javascript'></script>-->
+    <!--<script src='bower_components/angular-charts/dist/angular-charts.js' type='text/javascript'></script>-->
+
+    <script src="node_modules/angularjs-datetime-picker/angularjs-datetime-picker.min.js"></script>
+    <link rel="stylesheet" href="node_modules/angularjs-datetime-picker/angularjs-datetime-picker.css" />
+
+    <script src="js/watchcoreApp.js"></script>
+
+    <script src="js/controllers/login.js"></script>
+    <script src="js/controllers/panel.js"></script>
+    <script src="js/controllers/banners.js"></script>
+    <script src="js/controllers/posts.js"></script>
+    <script src="js/controllers/watchfaces.js"></script>
+    <script src="js/controllers/users.js"></script>
+    <script src="js/controllers/messages.js"></script>
+    <script src="js/derectives/filemodel.js"></script>
+
+
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+
+
+
+</head>
+<body ng-view="" style="overflow-y: hidden !important;">
+
+</body>
+</html>
